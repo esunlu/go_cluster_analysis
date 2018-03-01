@@ -1,7 +1,7 @@
 #!/bin/perl
 #!/usr/bin/perl
 # Author: Ercan Selçuk Ünlü
-# Simple perl code to cluster batch go annotation file
+# Simple perl code to for filtering large data sets after target based analysis
 # Please contact esunlu06@gmail.com for input file parameters
 
   open OUT, ">detaledfinal.txt" || (die "exclude.txt unsuccessful");
