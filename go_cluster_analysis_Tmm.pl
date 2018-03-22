@@ -5,21 +5,21 @@
 
 # 	Molecular Function
 
-  open OUT, ">monococcum_numbers.txt" || (die "exclude.txt unsuccessful");
-    open OUT2, ">others.txt" || (die "exclude.txt unsuccessful");
-        open OUTMOL, ">mol.txt" || (die "exclude.txt unsuccessful");
- open OUTM, ">monococcum_goonly.txt" || (die "exclude.txt unsuccessful");
-    open OUTM3, ">monococcum_molecularnumbers2.txt" || (die "exclude.txt unsuccessful");
-    open OUTM4, ">monococcum_moleculardetailed.txt" || (die "exclude.txt unsuccessful");
+  open OUT, ">monococcum_numbers.txt" || (die "monococcum_numbers.txt unsuccessful");
+    open OUT2, ">others.txt" || (die "others.txt unsuccessful");
+        open OUTMOL, ">mol.txt" || (die "mol.txt unsuccessful");
+ open OUTM, ">monococcum_goonly.txt" || (die "monococcum_goonly.txt unsuccessful");
+    open OUTM3, ">monococcum_molecularnumbers2.txt" || (die "monococcum_molecularnumbers2.txt unsuccessful");
+    open OUTM4, ">monococcum_moleculardetailed.txt" || (die "monococcum_moleculardetailed.txt unsuccessful");
 #   Cellular Component   
 
 
-    open OUTC3, ">monococcum_cellularnumbers2.txt" || (die "exclude.txt unsuccessful");
+    open OUTC3, ">monococcum_cellularnumbers2.txt" || (die "monococcum_cellularnumbers2.txt unsuccessful");
     open OUTC4, ">monococcum_cellulardetailed.txt" || (die "exclude.txt unsuccessful");
 #   Biological Process 
 
-    open OUTB3, ">monococcum_biologicalnumbers2.txt" || (die "exclude.txt unsuccessful");
-    open OUTB4, ">monococcum_biologicaldetailed.txt" || (die "exclude.txt unsuccessful");
+    open OUTB3, ">monococcum_biologicalnumbers2.txt" || (die "monococcum_biologicalnumbers2.txt unsuccessful");
+    open OUTB4, ">monococcum_biologicaldetailed.txt" || (die "monococcum_biologicaldetailed.txt unsuccessful");
 open IN2, "gogo.txt" || (die "exclude.txt unsuccessful");
 @names=<IN2>;
 	foreach  $name (@names){
