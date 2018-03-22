@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 # Author: Ercan Selçuk Ünlü
-# Simple perl code to cluster batch go annotation file
+# Simple perl code to cluster batch go annotation file after target analysis for miRNAs belonging to Triticum monococcum spp. monococcum
 # Please contact esunlu06@gmail.com for input file parameters
 
 # 	Molecular Function
