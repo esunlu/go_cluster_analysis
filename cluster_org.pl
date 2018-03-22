@@ -4,17 +4,17 @@
 # Simple perl code to for filtering large data sets after target based analysis
 # Please contact esunlu06@gmail.com for input file parameters
 
-  open OUT, ">detaledfinal.txt" || (die "exclude.txt unsuccessful");
+  open OUT, ">detaledfinal.txt" || (die "detaledfinal.txt unsuccessful");
 
- open OUTC, ">component.txt" || (die "exclude.txt unsuccessful");
-  open OUTF, ">function.txt" || (die "exclude.txt unsuccessful");
-   open OUTP, ">progress.txt" || (die "exclude.txt unsuccessful");
-   open OUTS, ">stats.txt" || (die "exclude.txt unsuccessful");
-open IN1, "input.txt" || (die "exclude.txt unsuccessful");
+ open OUTC, ">component.txt" || (die "component.txt unsuccessful");
+  open OUTF, ">function.txt" || (die "function.txt unsuccessful");
+   open OUTP, ">progress.txt" || (die "progress.txt unsuccessful");
+   open OUTS, ">stats.txt" || (die "stats.txt unsuccessful");
+open IN1, "input.txt" || (die "input.txt unsuccessful");
  @hashes=<IN1>;
  $i = 0;
 
-open IN2, "goslimlist.txt" || (die "exclude.txt unsuccessful");
+open IN2, "goslimlist.txt" || (die "goslimlist.txt unsuccessful");
  @mirs=<IN2>; 
 foreach   $hash (@hashes){
 	 chomp $hash;
